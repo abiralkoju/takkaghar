@@ -1,0 +1,76 @@
+.navbar {
+  background-color: #f7cf21 !important;
+  font-size: 1.15rem;
+}
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-contents {
+  margin: 0 1.2rem;
+}
+
+//choose us section
+.home-why-section-boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 2.2rem 1.5rem;
+}
+.box-heading {
+  text-align: center;
+  font-weight: 700;
+}
+.home-why-box {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  letter-spacing: 1px;
+  box-shadow: 2px 2px 5px rgb(132, 125, 125);
+}
+
+//accordian container
+.accordian-container {
+  height: 80vh;
+  width: 95%;
+  margin: 4.5rem auto;
+}
+// .accordian .item .accordian-header button {
+//   background-color: transparent;
+//   box-shadow: none;
+//   font-size: 1.8rem;
+// }
+
+//electrical-page
+.electrical-grid-container {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  height: 80vh;
+  .electrical-paragraph {
+    padding: 0 1rem;
+    .electrical-para-heading {
+      margin-left: 2rem;
+      border-bottom: 4px solid #f7cf21;
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+    ul {
+      margin-top: 1.5rem;
+      letter-spacing: 0.5px;
+      line-height: 1.5rem;
+      font-size: 1.1rem;
+      span {
+        font-weight: bold;
+        text-decoration: underline;
+      }
+    }
+  }
+  .electrical-form-heading {
+    border-bottom: 4px solid #f7cf21;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-right: 1.5rem;
+  }
+}
