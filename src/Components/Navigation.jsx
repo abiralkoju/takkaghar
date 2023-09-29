@@ -35,7 +35,7 @@ function Navigation() {
                 <NavDropdown.Item href="services2">Plumber</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link className="navbar-contents" href="contact">
-                Contact us
+                {/* Contact us */}
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

@@ -39,14 +39,14 @@ const ContactForm = () => {
     }
 
     // Clear the form
-    // setFormData({
-    //   name: "",
-    //   email: "",
-    //   repair: "",
-    //   issues: "",
-    //   address: "",
-    //   contact_no: "",
-    // });
+    setFormData({
+      name: "",
+      email: "",
+      repair: "",
+      issues: "",
+      address: "",
+      contact_no: "",
+    });
   };
 
   return (

@@ -80,6 +80,20 @@ const Home = () => {
       </section>
 
       <Accordian />
+
+      <div className="service-provide-div">
+        <h2
+          className="home-why-section-heading"
+          style={{
+            textAlign: "center",
+            fontSize: "2.4rem",
+            color: "#f7cf21",
+            fontWeight: "700",
+          }}
+        >
+          {/* Services We Provide */}
+        </h2>
+      </div>
     </>
   );
 };
